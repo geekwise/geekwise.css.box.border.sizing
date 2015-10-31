@@ -1,0 +1,51 @@
+*{
+	box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    
+    margin:0;
+    padding:0;
+    background-color:forestgreen;
+	box-sizing:inherit;
+}
+
+
+header{
+    height:50%;
+    background-color: orange;
+}
+
+
+div{
+    float:left;
+    display:inline-block;
+    border:3px solid black;
+}
+
+
+header > div:nth-child(1){
+    width:25%;
+    height:100%;
+    background-color:red;
+}
+
+header > div:nth-child(2){
+        width:25%;
+    height:100%;
+    background-color:grey;
+}
+
+header > div:nth-child(3){
+    width:25%;
+    height:100%;
+    background-color:blue;
+}
+
+header > div:nth-child(4){
+        width:25%;
+    height:100%;
+    background-color:gold;
+}
